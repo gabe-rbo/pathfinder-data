@@ -1,0 +1,88 @@
+== cameras: skipped, not due (weekly; last 2026-11-23T13:24:14Z) — previous files kept
+== transit: pftransit exit 0 (cities marked FAIL keep their previous files)
+pftransit build
+  [ok  ] bh: version 202611271426, 328 routes, 9870 stops, 892 patterns, 23844 profiles, 52519 trips, 243149 footpaths, 913 shapes, bundle 3135309 bytes, fares 30807 bytes, valid 2026-11-27…2026-12-31, 20.8 s
+         META  raw 484  stored 308
+         STRS  raw 384548  stored 114838
+         AGCY  raw 19  stored 19
+         ROUT  raw 6087  stored 3599
+         STOP  raw 159955  stored 108255
+         PATN  raw 201841  stored 124433
+         PROF  raw 2925308  stored 1315551
+         TRIP  raw 482465  stored 115198
+         TRID  raw 1078054  stored 161725
+         SERV  raw 155  stored 155
+         HOLI  raw 133  stored 133
+         FOOT  raw 1602987  stored 871107
+         SHAP  raw 424365  stored 319660
+         timings: read 5.8s, overlays 0.1s, validate 13.9s, compile 0.4s, write 0.6s, verify 0.1s
+         source bhtrans-gtfs: ok (feed_version 202611251918)
+         source metro-bh-handbuilt: ok (feed_version 2026-11-22)
+         · [warning] build: metro-bh-handbuilt: merged 2 routes, 45 stops, 12 trips (36 frequency rows)
+         · [warning] build: mode overrides: 31 routes
+         · [warning] build: holiday overlay applied: 2026-12-08 Imaculada Conceição → sunday; 2026-12-25 Natal → sunday; 2027-01-01 Confraternização Universal → sunday; 2027-02-08 Carnaval (segunda-feira) — ponto facultativo; quadro aproximado de sábado → saturday; 2027-02-09 Carnaval (terça-feira) — ponto facultativo; quadro de domingo → sunday; 2027-03-26 Sexta-feira da Paixão → sunday; 2027-04-21 Tiradentes / Data Magna de Minas Gerais → sunday; 2027-05-01 Dia do Trabalho → sunday; 2027-05-27 Corpus Christi → sunday
+         · [warning] build: route colours: 326 generated (families 012841,BED000,EFB12D)
+         · [warning] build: frequencies: 948 trips expanded
+         · [warning] build: shapes: 913 → 913 after dedup, 213179 → 108464 points (DP 5 m)
+         · [warning] build: dropped 62121 trips: inactive service
+  [ok  ] curitiba: version 202611271427, 214 routes, 6444 stops, 555 patterns, 4289 profiles, 15934 trips, 87467 footpaths, 460 shapes, bundle 744349 bytes, fares 27584 bytes, valid 2026-11-27…2026-12-31, 0.8 s
+         META  raw 447  stored 287
+         STRS  raw 344176  stored 93189
+         AGCY  raw 7  stored 7
+         ROUT  raw 3876  stored 2195
+         STOP  raw 102381  stored 75363
+         PATN  raw 51016  stored 33424
+         PROF  raw 254831  stored 122775
+         TRIP  raw 143230  stored 29497
+         TRID  raw 127474  stored 38759
+         SERV  raw 58  stored 58
+         HOLI  raw 31  stored 31
+         FOOT  raw 536848  stored 259024
+         SHAP  raw 101566  stored 89412
+         timings: read 0.5s, overlays 0.0s, validate 0.0s, compile 0.1s, write 0.1s, verify 0.0s
+         source urbs-gtfs: ok (feed_version 20261014)
+         · [warning] build: holiday overlay applied: 2026-12-19 Emancipação Política do Paraná → sunday; 2026-12-25 Natal → sunday
+         · [warning] build: route colours: 258 generated (families 108700,EFDC07,F98700,FF0000)
+         · [warning] build: shapes: 461 → 460 after dedup, 170019 → 25598 points (DP 5 m)
+  [ok  ] df: version 202611271427, 921 routes, 5932 stops, 1395 patterns, 3822 profiles, 44050 trips, 32848 footpaths, 1394 shapes, bundle 1529265 bytes, fares 16025 bytes, valid 2026-11-27…2026-12-27, 230.5 s
+         META  raw 452  stored 290
+         STRS  raw 181058  stored 53711
+         AGCY  raw 103  stored 103
+         ROUT  raw 17306  stored 9769
+         STOP  raw 85529  stored 51391
+         PATN  raw 391140  stored 151251
+         PROF  raw 721698  stored 388552
+         TRIP  raw 406872  stored 103417
+         TRID  raw 1315385  stored 143164
+         SERV  raw 8007  stored 1380
+         HOLI  raw 26  stored 26
+         FOOT  raw 200421  stored 94801
+         SHAP  raw 954246  stored 531082
+         timings: read 125.5s, overlays 104.4s, validate 0.0s, compile 0.3s, write 0.3s, verify 0.0s
+         source semob-wfs: ok (feed_version 20261127-derived)
+         · [warning] build: holiday overlay applied: 2026-11-30 Dia do Evangélico → sunday; 2026-12-25 Natal → sunday
+         · [warning] build: route colours: 921 generated (families )
+         · [warning] build: shapes: 1395 → 1394 after dedup, 924061 → 244102 points (DP 5 m)
+         · [warning] build: df-stpc: class df.metro matches no route
+  [ok  ] recife: version 202611271431, 400 routes, 7240 stops, 1220 patterns, 8666 profiles, 90552 trips, 92791 footpaths, 1223 shapes, bundle 1954368 bytes, fares 10940 bytes, valid 2026-11-27…2027-11-23, 4.1 s
+         META  raw 452  stored 287
+         STRS  raw 107322  stored 35562
+         AGCY  raw 67  stored 67
+         ROUT  raw 7402  stored 4103
+         STOP  raw 103119  stored 68756
+         PATN  raw 197135  stored 86065
+         PROF  raw 782912  stored 426638
+         TRIP  raw 874230  stored 199425
+         TRID  raw 2994957  stored 613977
+         SERV  raw 28910  stored 3016
+         HOLI  raw 210  stored 210
+         FOOT  raw 555746  stored 254478
+         SHAP  raw 395042  stored 261456
+         timings: read 3.0s, overlays 0.1s, validate 0.0s, compile 0.4s, write 0.5s, verify 0.1s
+         source granderecife-gtfs: ok (feed_version v2026.11.23)
+         · [warning] build: holiday overlay applied: 2026-12-08 Nossa Senhora da Conceição → sunday; 2026-12-25 Natal → sunday; 2027-01-01 Confraternização Universal → sunday; 2027-02-08 Carnaval (segunda-feira) — ponto facultativo → saturday; 2027-02-09 Carnaval (terça-feira) → sunday; 2027-03-06 Data Magna do Estado de Pernambuco → sunday; 2027-03-12 Aniversário do Recife → sunday; 2027-03-26 Sexta-feira da Paixão → sunday; 2027-04-21 Tiradentes → sunday; 2027-05-01 Dia do Trabalho → sunday; 2027-06-24 São João → sunday; 2027-07-16 Nossa Senhora do Carmo (padroeira) → sunday; 2027-09-07 Independência do Brasil → sunday; 2027-10-12 Nossa Senhora Aparecida → sunday; 2027-11-02 Finados → sunday; 2027-11-15 Proclamação da República → sunday; 2027-11-20 Dia Nacional de Zumbi e da Consciência Negra → sunday
+         · [warning] build: route colours: 400 generated (families )
+         · [warning] build: shapes: 1423 → 1223 after dedup, 448580 → 100414 points (DP 5 m)
+  [FAIL] rio: validationFailed(["[error] shrink: trips dropped from 104014 to 17361 (> 25 %)"]) — previous files kept
+  [FAIL] sp: validationFailed(["[error] shrink: trips dropped from 173419 to 2268 (> 25 %)"]) — previous files kept
+  index: 6 cities
